@@ -7,7 +7,7 @@ class Popper extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@web/static/third_party/popper.js/dist';
+    public $baseUrl = '@bower/popper.js/dist';
     
     /**
      * @inherit

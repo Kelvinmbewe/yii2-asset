@@ -30,7 +30,7 @@
             "bower-asset-library": "web/static/third_party"
         },
         "installer-paths": {
-            "web/static/third_party/{$name}": ["twbs/bootstrap"]
+            "web/static/third_party/{$name}4": ["twbs/bootstrap"]
         },
         "branch-alias": {
             "dev-master": "1.0.x-dev"

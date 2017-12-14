@@ -7,7 +7,7 @@ class Pace extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@web/static/third_party/pace';
+    public $baseUrl = '@bower/pace';
 
     /**
      * @inherit
