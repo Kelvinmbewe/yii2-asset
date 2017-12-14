@@ -7,7 +7,7 @@ class Noty extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@bower/noty/lib';
+    public $baseUrl = '@thirdparty/noty/lib';
 
     /**
      * @inherit

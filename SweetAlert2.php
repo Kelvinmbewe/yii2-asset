@@ -7,7 +7,7 @@ class SweetAlert2 extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@bower/sweetalert2/dist';
+    public $baseUrl = '@thirdparty/sweetalert2/dist';
 
     /**
      * @inherit

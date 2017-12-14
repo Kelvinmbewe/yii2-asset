@@ -7,7 +7,7 @@ class Tether extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@bower/tether/dist';
+    public $baseUrl = '@thirdparty/tether/dist';
 
     /**
      * @inherit

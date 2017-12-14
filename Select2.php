@@ -7,7 +7,7 @@ class Select2 extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@bower/select2/dist';
+    public $baseUrl = '@thirdparty/select2/dist';
 
     /**
      * @inherit
