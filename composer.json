@@ -1,0 +1,44 @@
+{
+    "name": "nolbertovilchez/yii2-asset",
+    "description": "Assets de librerias externas",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "José Nolberto Vilchez Moreno",
+            "email": "jnolbertovm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "bower-asset/fontawesome": "^4.7",
+        "bower-asset/pace": "^1.0",
+        "bower-asset/popper.js": "^1.13",
+        "bower-asset/perfect-scrollbar": "^0.8.1",
+        "bower-asset/tether": "^1.4",
+        "bower-asset/noty": "^3.1",
+        "bower-asset/sweetalert2": "^7.0",
+        "bower-asset/jquery-validation": "^1.17",
+        "bower-asset/bootstrap-table": "^1.11",
+        "bower-asset/select2": "^4.0",
+        "twbs/bootstrap": "4.0.0-beta.2",
+        "yiisoft/yii2": "2.0.13.1"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "web/static/third_party"
+        },
+        "installer-paths": {
+            "web/static/third_party/{$name}": ["twbs/bootstrap"]
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "nolbertovilchez\\yii2\\asset\\": ""
+        }
+    }
+}
