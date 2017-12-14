@@ -7,7 +7,7 @@ class JqueryValidation extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@webroot/static/third_party/jquery-validation/dist';
+    public $baseUrl = '@web/static/third_party/jquery-validation/dist';
 
     /**
      * @inherit
