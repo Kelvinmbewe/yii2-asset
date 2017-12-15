@@ -11,7 +11,7 @@ class FontAwesome extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@thirdparty/fontawesome';
+    public $baseUrl = '@web/static/third_party/fontawesome';
 
     /**
      * @inherit

@@ -7,7 +7,7 @@ class BootstrapTable extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@thirdparty/bootstrap-table/dist';
+    public $baseUrl = '@web/static/third_party/bootstrap-table/dist';
 
     /**
      * @inherit

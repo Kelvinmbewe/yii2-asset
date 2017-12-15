@@ -7,7 +7,7 @@ class Bootstrap4 extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@thirdparty/bootstrap/dist';
+    public $baseUrl = '@web/static/third_party/bootstrap4/dist';
 
     /**
      * @inherit

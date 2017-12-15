@@ -7,7 +7,7 @@ class Jquery extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@thirdparty/jquery/dist';
+    public $baseUrl = '@web/static/third_party/jquery/dist';
 
     /**
      * @inherit

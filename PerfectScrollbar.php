@@ -7,7 +7,7 @@ class PerfectScrollbar extends \Yii\web\AssetBundle {
     /**
      * @inherit
      */
-    public $baseUrl = '@thirdparty/perfect-scrollbar';
+    public $baseUrl = '@web/static/third_party/perfect-scrollbar';
 
     /**
      * @inherit
