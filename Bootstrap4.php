@@ -24,6 +24,7 @@ class Bootstrap4 extends \Yii\web\AssetBundle {
     ];
     
     public $depends = [
+        'nolbertovilchez\yii2\asset\Popper',
         'nolbertovilchez\yii2\asset\Tether'
     ];
 
